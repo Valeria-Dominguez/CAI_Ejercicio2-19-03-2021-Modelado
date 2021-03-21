@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EAA67765-BB37-44BB-8CBD-70DCD29B0BA5}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Veterinaria.Consola</RootNamespace>
-    <AssemblyName>Veterinaria.Consola</AssemblyName>
+    <ProjectGuid>{E2BD90F0-1CD2-408A-A239-679BE4706446}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Veterinaria.Libreri</RootNamespace>
+    <AssemblyName>Veterinaria.Libreri</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -48,12 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Veterinaria.Libreria\Veterinaria.Libreria.csproj">
-      <Project>{0f7be9b7-0069-4945-83bc-a32c72e70a00}</Project>
-      <Name>Veterinaria.Libreria</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

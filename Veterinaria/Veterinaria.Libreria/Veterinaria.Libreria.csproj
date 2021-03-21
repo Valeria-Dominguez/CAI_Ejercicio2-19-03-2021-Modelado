@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EAA67765-BB37-44BB-8CBD-70DCD29B0BA5}</ProjectGuid>
-    <OutputType>Exe</OutputType>
-    <RootNamespace>Veterinaria.Consola</RootNamespace>
-    <AssemblyName>Veterinaria.Consola</AssemblyName>
+    <ProjectGuid>{0F7BE9B7-0069-4945-83BC-A32C72E70A00}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Veterinaria.Libreria</RootNamespace>
+    <AssemblyName>Veterinaria.Libreria</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,17 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Entidades\Insumos\Insumo.cs" />
+    <Compile Include="Entidades\Pacientes\Clientes.cs" />
+    <Compile Include="Entidades\Pacientes\Turno.cs" />
+    <Compile Include="Entidades\Pacientes\Paciente.cs" />
+    <Compile Include="Entidades\Profesionales\Profesional.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Veterinaria.Libreria\Veterinaria.Libreria.csproj">
-      <Project>{0f7be9b7-0069-4945-83bc-a32c72e70a00}</Project>
-      <Name>Veterinaria.Libreria</Name>
-    </ProjectReference>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
