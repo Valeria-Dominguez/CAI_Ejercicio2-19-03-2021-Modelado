@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carta.Consola", "Carta.Consola\Carta.Consola.csproj", "{B2C53828-090D-4322-BD24-51F7CC13863A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carta.Libreria", "Carta.Libreria\Carta.Libreria.csproj", "{A7802B77-C927-4A92-BFC9-E09352FC3758}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B2C53828-090D-4322-BD24-51F7CC13863A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2C53828-090D-4322-BD24-51F7CC13863A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2C53828-090D-4322-BD24-51F7CC13863A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7802B77-C927-4A92-BFC9-E09352FC3758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7802B77-C927-4A92-BFC9-E09352FC3758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7802B77-C927-4A92-BFC9-E09352FC3758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7802B77-C927-4A92-BFC9-E09352FC3758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

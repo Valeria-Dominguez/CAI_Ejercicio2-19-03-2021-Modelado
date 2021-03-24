@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Carta.Libreria
+namespace Carta.Libreria.Entidades
 {
     public class Carta
     {
