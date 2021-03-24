@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2BD90F0-1CD2-408A-A239-679BE4706446}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Veterinaria.Libreri</RootNamespace>
-    <AssemblyName>Veterinaria.Libreri</AssemblyName>
+    <ProjectGuid>{3C88DE27-BC61-4994-A886-867FB83AA8A3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Restaurant.Consola</RootNamespace>
+    <AssemblyName>Restaurant.Consola</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject />
+    <StartupObject>Restaurant.Consola.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Restaurant.Libreria\Restaurant.Libreria.csproj">
+      <Project>{f929ad1c-2e06-4312-b856-f7a9a596d282}</Project>
+      <Name>Restaurant.Libreria</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

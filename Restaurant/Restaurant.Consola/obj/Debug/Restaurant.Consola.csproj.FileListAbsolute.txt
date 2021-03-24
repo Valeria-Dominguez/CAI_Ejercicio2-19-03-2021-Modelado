@@ -1,0 +1,10 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\obj\Debug\Restaurant.Consola.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\obj\Debug\Restaurant.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\bin\Debug\Restaurant.Consola.exe.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\bin\Debug\Restaurant.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\bin\Debug\Restaurant.Consola.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\bin\Debug\Restaurant.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\bin\Debug\Restaurant.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\obj\Debug\Restaurant.Consola.csproj.CopyComplete
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\obj\Debug\Restaurant.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Restaurant\Restaurant.Consola\obj\Debug\Restaurant.Consola.pdb
