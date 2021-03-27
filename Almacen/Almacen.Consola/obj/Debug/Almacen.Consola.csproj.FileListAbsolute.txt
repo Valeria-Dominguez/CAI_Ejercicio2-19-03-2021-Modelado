@@ -1,0 +1,10 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\bin\Debug\Almacen.Consola.exe.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\bin\Debug\Almacen.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\bin\Debug\Almacen.Consola.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\bin\Debug\Almacen.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\bin\Debug\Almacen.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\obj\Debug\Almacen.Consola.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\obj\Debug\Almacen.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\obj\Debug\Almacen.Consola.csproj.CopyComplete
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\obj\Debug\Almacen.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Consola\obj\Debug\Almacen.Consola.pdb

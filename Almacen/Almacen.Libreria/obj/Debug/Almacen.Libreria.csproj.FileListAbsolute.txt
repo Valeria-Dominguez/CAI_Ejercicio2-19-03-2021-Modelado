@@ -1,0 +1,6 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Libreria\bin\Debug\Almacen.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Libreria\bin\Debug\Almacen.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Libreria\obj\Debug\Almacen.Libreria.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Libreria\obj\Debug\Almacen.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Libreria\obj\Debug\Almacen.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Almacen\Almacen.Libreria\obj\Debug\Almacen.Libreria.pdb

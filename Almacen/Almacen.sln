@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almacen.Consola", "Almacen.Consola\Almacen.Consola.csproj", "{B0298F72-0EAC-4E23-8A0A-066F5F08C2EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Almacen.Libreria", "Almacen.Libreria\Almacen.Libreria.csproj", "{361FD3CF-E769-432D-A054-E3C143614D3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0298F72-0EAC-4E23-8A0A-066F5F08C2EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0298F72-0EAC-4E23-8A0A-066F5F08C2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0298F72-0EAC-4E23-8A0A-066F5F08C2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0298F72-0EAC-4E23-8A0A-066F5F08C2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361FD3CF-E769-432D-A054-E3C143614D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361FD3CF-E769-432D-A054-E3C143614D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361FD3CF-E769-432D-A054-E3C143614D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361FD3CF-E769-432D-A054-E3C143614D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4217DE2-9593-452A-BAC4-B8C73BF5F347}
+	EndGlobalSection
+EndGlobal
