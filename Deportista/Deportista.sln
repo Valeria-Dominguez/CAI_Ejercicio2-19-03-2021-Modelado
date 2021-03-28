@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deportista.Consola", "Deportista.Consola\Deportista.Consola.csproj", "{494EB6FD-E2DB-40CC-A020-307650E4EC8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deportista.Libreria", "Deportista.Libreria\Deportista.Libreria.csproj", "{ABDDCB00-13AA-408F-9B54-1D2C62262143}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{494EB6FD-E2DB-40CC-A020-307650E4EC8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494EB6FD-E2DB-40CC-A020-307650E4EC8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494EB6FD-E2DB-40CC-A020-307650E4EC8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494EB6FD-E2DB-40CC-A020-307650E4EC8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDDCB00-13AA-408F-9B54-1D2C62262143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDDCB00-13AA-408F-9B54-1D2C62262143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDDCB00-13AA-408F-9B54-1D2C62262143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDDCB00-13AA-408F-9B54-1D2C62262143}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D211BD8-616A-4828-8142-01AE7041AA0E}
+	EndGlobalSection
+EndGlobal

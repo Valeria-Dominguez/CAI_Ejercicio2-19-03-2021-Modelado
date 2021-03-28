@@ -1,0 +1,6 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Libreria\bin\Debug\Deportista.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Libreria\bin\Debug\Deportista.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Libreria\obj\Debug\Deportista.Libreria.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Libreria\obj\Debug\Deportista.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Libreria\obj\Debug\Deportista.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Libreria\obj\Debug\Deportista.Libreria.pdb

@@ -1,0 +1,10 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\obj\Debug\Deportista.Consola.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\obj\Debug\Deportista.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\bin\Debug\Deportista.Consola.exe.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\bin\Debug\Deportista.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\bin\Debug\Deportista.Consola.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\bin\Debug\Deportista.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\bin\Debug\Deportista.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\obj\Debug\Deportista.Consola.csproj.CopyComplete
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\obj\Debug\Deportista.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Deportista\Deportista.Consola\obj\Debug\Deportista.Consola.pdb
