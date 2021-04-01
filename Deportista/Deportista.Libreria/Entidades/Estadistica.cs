@@ -12,7 +12,7 @@ namespace Deportista.Libreria.Entidades
         int _duracionSesion;
         int _cantSesionesAcum;
         int _duracionSesionesAcum;
-        
+
         public int NumeroSesion
         {
             get
@@ -21,7 +21,7 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _numeroSesion;
+                _numeroSesion = value;
             }
         }
         public int DuracionSesion
@@ -32,7 +32,7 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _duracionSesion;
+                _duracionSesion = value;
             }
         }
         public int CantSesionesACum
@@ -43,7 +43,7 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _cantSesionesAcum;
+                _cantSesionesAcum = value;
             }
         }
         public int DuracionSesionesAcum
@@ -54,8 +54,16 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _duracionSesionesAcum;
+                _duracionSesionesAcum = value;
             }
+        }
+
+        public Estadistica(int numeroSesion, int duracionSesion, int cantSesionesAcum, int duracionSesionesAcum)
+        {
+            NumeroSesion = numeroSesion;
+            DuracionSesion = duracionSesion;
+            CantSesionesACum = cantSesionesAcum;
+            DuracionSesionesAcum = duracionSesionesAcum;
         }
     }
 }

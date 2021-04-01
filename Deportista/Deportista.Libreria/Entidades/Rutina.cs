@@ -12,6 +12,7 @@ namespace Deportista.Libreria.Entidades
         string _descripRutina;
         int _repeticionesRutina;
         int _duracionRutinaMinutos;
+       
         public string NombreRutina
         {
             get
@@ -20,7 +21,7 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _nombreRutina;
+                _nombreRutina = value;
             }
         }
         public string DescripRutina
@@ -31,7 +32,7 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _descripRutina;
+                _descripRutina = value;
             }
         }
         public int RepeticionesRutina
@@ -42,7 +43,7 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _repeticionesRutina;
+                _repeticionesRutina = value;
             }
         }
         public int DuracionRutinaMinutos
@@ -53,8 +54,16 @@ namespace Deportista.Libreria.Entidades
             }
             set
             {
-                value = _duracionRutinaMinutos;
+                _duracionRutinaMinutos = value;
             }
+        }
+
+        public Rutina(string nombreRutina, string descripRutina, int repeticionesRutina, int duracionRutinaMinutos)
+        {
+            NombreRutina = nombreRutina;
+            DescripRutina = descripRutina;
+            RepeticionesRutina = repeticionesRutina;
+            DuracionRutinaMinutos = duracionRutinaMinutos;
         }
     }
 }
