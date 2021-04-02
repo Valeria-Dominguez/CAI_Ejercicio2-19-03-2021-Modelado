@@ -1,0 +1,6 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Libreria\bin\Debug\Carta.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Libreria\bin\Debug\Carta.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Libreria\obj\Debug\Carta.Libreria.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Libreria\obj\Debug\Carta.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Libreria\obj\Debug\Carta.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Libreria\obj\Debug\Carta.Libreria.pdb

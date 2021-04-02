@@ -11,8 +11,12 @@ namespace Carta.Consola
     {
         static void Main(string[] args)
         {
-            Mazo unMazo = new Mazo();
-            unMazo.MazoUnJuego[0].PaloCarta = "Basto";
+            Mazo MazoUnJuego = new Mazo(3);
+            MazoUnJuego.AgregarCarta(0, 1, "espada");
+            MazoUnJuego.AgregarCarta(1, 2, "espada");
+
+
+            Console.ReadKey();
 
         }
     }

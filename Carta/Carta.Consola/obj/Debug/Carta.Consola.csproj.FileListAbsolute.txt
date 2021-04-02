@@ -1,0 +1,10 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\obj\Debug\Carta.Consola.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\obj\Debug\Carta.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\bin\Debug\Carta.Consola.exe.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\bin\Debug\Carta.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\bin\Debug\Carta.Consola.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\bin\Debug\Carta.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\bin\Debug\Carta.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\obj\Debug\Carta.Consola.csproj.CopyComplete
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\obj\Debug\Carta.Consola.exe
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Carta\Carta.Consola\obj\Debug\Carta.Consola.pdb

@@ -8,55 +8,49 @@ namespace Carta.Libreria.Entidades
 {
     public class Carta
     {
-        private int idCarta;
-        private string nombreCarta;
-        private int numeroCarta;
-        private string paloCarta;
+        int _idCarta;
+        int _numeroCarta;
+        string _paloCarta;
 
         public int IdCarta
         {
             set
             {
-                this.idCarta = value;
+                _idCarta = value;
             }
             get
             {
-                return idCarta;
+                return _idCarta;
             }
-        }
-        public string NombreCarta
-        {
-            set
-            {
-                this.nombreCarta = value;
-            }
-            get
-            {
-                return nombreCarta;
-            }
-        }
+        }        
         public int NumeroCarta
         {
             set
             {
-                this.numeroCarta = value;
+                _numeroCarta = value;
             }
             get
             {
-                return numeroCarta;
+                return _numeroCarta;
             }
         }
         public string PaloCarta
         {
             set
             {
-                this.paloCarta = value;
+                _paloCarta = value;
             }
             get
             {
-                return paloCarta;
+                return _paloCarta;
             }
         }
 
+        public Carta (int idCarta, int numeroCarta, string paloCarta)
+        {
+            IdCarta = idCarta;
+            NumeroCarta = numeroCarta;
+            PaloCarta = paloCarta;
+        }
     }
 }
