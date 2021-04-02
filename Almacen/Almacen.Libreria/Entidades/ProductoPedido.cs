@@ -20,7 +20,7 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _idProducto;
+                _idProducto = value;
             }
         }
         public string NombreProducto
@@ -31,7 +31,7 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _nombreProducto;
+                _nombreProducto = value;
             }
         }
         public int CantProducto
@@ -42,8 +42,15 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _cantProducto;
+                _cantProducto = value;
             }
+        }
+
+        public ProductoPedido (int idProducto, string nombreProducto, int cantProducto)
+        {
+            IdProducto = idProducto;
+            NombreProducto = nombreProducto;
+            CantProducto = cantProducto;
         }
     }
 }

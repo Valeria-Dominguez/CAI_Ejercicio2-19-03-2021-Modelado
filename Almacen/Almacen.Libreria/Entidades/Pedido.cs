@@ -8,24 +8,35 @@ namespace Almacen.Libreria.Entidades
 {
     public class Pedido
     {
-        const int cantMaxProductos = 100;
-        bool _estadoPedido;
-        DateTime _fechaPedido;
-        DateTime _fechaEntregaPedido;
-        string _nombreCliente;
+        const int cantMaxProductos = 3;
+        bool _pedidoEntregado;
+        int _idPEdido;
+        string _fechaPedido;
+        string _fechaEntregaPedido;
         ProductoPedido[] _productosPedido;
-        public bool EstadoPedido
+        public bool PedidoEntregado
         {
             get
             {
-                return _estadoPedido;
+                return _pedidoEntregado ;
             }
             set
             {
-                value = _estadoPedido;
+                _pedidoEntregado = value;
             }
         }
-        public DateTime FechaPedido
+        public int IdPedido
+        {
+            get
+            {
+                return _idPEdido;
+            }
+            set
+            {
+                _idPEdido = value;
+            }
+        }
+        public string FechaPedido
         {
             get
             {
@@ -33,10 +44,10 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _fechaPedido;
+                _fechaPedido = value;
             }
         }
-        public DateTime FechaEntregaPedido
+        public string FechaEntregaPedido
         {
             get
             {
@@ -44,18 +55,7 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _fechaEntregaPedido;
-            }
-        }
-        public string NombreCliente
-        {
-            get
-            {
-                return _nombreCliente;
-            }
-            set
-            {
-                value = _nombreCliente;
+                _fechaEntregaPedido = value;
             }
         }
         public ProductoPedido[] ProductosPedido
@@ -66,7 +66,20 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _productosPedido;
+                _productosPedido = value;
+            }
+        }
+
+        public Pedido (int idPedido, string fechaPedido, string fechaEntregaPedido)
+        {
+            IdPedido = idPedido;
+            FechaPedido = fechaPedido;
+            FechaEntregaPedido = fechaEntregaPedido;
+            PedidoEntregado = false;
+            ProductosPedido = new ProductoPedido[cantMaxProductos];
+            for (int cont = 0; cont <= this.ProductosPedido.GetUpperBound(0); cont++)
+            {
+                ProductosPedido[cont] = new ProductoPedido(0, "", 0);
             }
         }
     }

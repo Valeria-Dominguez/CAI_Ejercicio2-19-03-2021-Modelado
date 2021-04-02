@@ -8,10 +8,12 @@ namespace Almacen.Libreria.Entidades
 {
     public class Cliente
     {
+        const int cantMaxPedidos = 3;
         int _idCliente;
         string _nombreCliente;
         string _domicilioCliente;
         int _telCliente;
+        Pedido[] _pedidos;
 
         public int IdCliente
         {
@@ -21,7 +23,7 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _idCliente;
+                _idCliente = value;
             }
         }
 
@@ -33,7 +35,7 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _nombreCliente;
+                _nombreCliente = value;
             }
         }
 
@@ -45,7 +47,7 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _domicilioCliente;
+                _domicilioCliente = value;
             }
         }
         public int TelCliente
@@ -56,9 +58,45 @@ namespace Almacen.Libreria.Entidades
             }
             set
             {
-                value = _telCliente;
+                _telCliente = value;
+            }
+        }
+        public Pedido[] Pedidos
+        {
+            get
+            {
+                return _pedidos;
+            }
+            set
+            {
+                _pedidos = value;
             }
         }
 
+        public Cliente (int idCliente, string nombreCliente, string domicilioCliente, int telCliente)
+        {
+            IdCliente = idCliente;
+            NombreCliente = nombreCliente;
+            DomicilioCLiente = domicilioCliente;
+            TelCliente = telCliente;
+            Pedidos = new Pedido[cantMaxPedidos];
+            for(int cont = 0; cont <= this.Pedidos.GetUpperBound(0); cont++)
+            {
+                Pedidos[cont] = new Pedido(0, "", "");
+            }
+        }
+
+        public void CambiarEstadoPedido(int posicionPedido)
+        {
+            if (this.Pedidos[posicionPedido].PedidoEntregado == false)
+            {
+                this.Pedidos[posicionPedido].PedidoEntregado = true;
+                Console.WriteLine("La entrega del pedido ha sido registrada\n");
+            }
+            else
+            {
+                Console.WriteLine("La entrega del pedido ya fue registrada anteriormente\n");
+            }
+        }
     }
 }

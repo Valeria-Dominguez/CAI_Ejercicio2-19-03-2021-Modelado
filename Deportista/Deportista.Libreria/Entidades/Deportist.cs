@@ -79,16 +79,15 @@ namespace Deportista.Libreria.Entidades
             NombreDeportista = nombreDeportista;
             RutinaSemanal = new Rutina[CantMaxRutinas];
             Estadisticas = new Estadistica[CantMaxEstadisticas];
-            for (int cont =0; cont <= RutinaSemanal.GetUpperBound(0); cont++)
+            for (int cont =0; cont <= this.RutinaSemanal.GetUpperBound(0); cont++)
             {
                 RutinaSemanal[cont] = new Rutina("", "", 0, 0);
             }
-            for (int cont = 0; cont <= Estadisticas.GetUpperBound(0); cont++)
+            for (int cont = 0; cont <= this.Estadisticas.GetUpperBound(0); cont++)
             {
                 Estadisticas[cont] = new Estadistica(0, 0, 0, 0);
             }
         }
-
 
         public void BuscarRutina(string nombreRutina)
         {
