@@ -107,7 +107,7 @@ namespace Deportista.Libreria.Entidades
             }
             else
             {
-                Console.WriteLine("La rutina " + nombreRutina + " no existe");
+                Console.WriteLine("La rutina " + nombreRutina + " no existe\n");
             }
         }
         public void AgregarRutina (string nombreRut, string descripRut, int repeticionesRut, int duracionRutMinutos)
