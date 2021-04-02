@@ -1,0 +1,7 @@
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Veterinaria\Veterinaria.Libreria\bin\Debug\Veterinaria.Libreria.dll.config
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Veterinaria\Veterinaria.Libreria\bin\Debug\Veterinaria.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Veterinaria\Veterinaria.Libreria\bin\Debug\Veterinaria.Libreria.pdb
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Veterinaria\Veterinaria.Libreria\obj\Debug\Veterinaria.Libreria.csprojAssemblyReference.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Veterinaria\Veterinaria.Libreria\obj\Debug\Veterinaria.Libreria.csproj.CoreCompileInputs.cache
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Veterinaria\Veterinaria.Libreria\obj\Debug\Veterinaria.Libreria.dll
+C:\Users\Valeria\Downloads\CAI\Ejercicios\CAI_Ejercicio2-19-03-2021-Modelado\Veterinaria\Veterinaria.Libreria\obj\Debug\Veterinaria.Libreria.pdb

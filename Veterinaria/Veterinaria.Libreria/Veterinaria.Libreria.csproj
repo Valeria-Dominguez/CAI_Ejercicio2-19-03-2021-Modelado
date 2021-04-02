@@ -50,6 +50,7 @@
     <Compile Include="Entidades\Pacientes\Clientes.cs" />
     <Compile Include="Entidades\Pacientes\Turno.cs" />
     <Compile Include="Entidades\Pacientes\Paciente.cs" />
+    <Compile Include="Entidades\Pacientes\Visita.cs" />
     <Compile Include="Entidades\Profesionales\Profesional.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
