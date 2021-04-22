@@ -8,19 +8,20 @@ namespace Veterinaria.Libreria.Entidades
 {
     public class Cliente
     {
-        string _idCliente;
+        string _id;
         string _nombre;
         string _domicilio;
         string _numeroTel;
         string _email;
         List<Paciente> _mascotas;
 
-        internal string IdCliente { get => _idCliente; }
+        internal string Id { get => _id; }
         internal List<Paciente> Mascotas { get => _mascotas; }
 
-        internal Cliente (string idCliente, string nombre, string domicilio, string numeroTel, string email)
+        internal Cliente (string id, string nombre, string domicilio, string numeroTel, string email)
         {
-            this._idCliente = idCliente;
+            
+            this._id = id;
             this._nombre = nombre;
             this._domicilio = domicilio;
             this._numeroTel = numeroTel;

@@ -48,8 +48,10 @@
   <ItemGroup>
     <Compile Include="Entidades\AppVeterinaria\SucVeterinaria.cs" />
     <Compile Include="Entidades\Modelos\PacienteYCliente.cs" />
-    <Compile Include="Entidades\Pacientes\Cliente.cs" />
+    <Compile Include="Entidades\Personas\Cliente.cs" />
     <Compile Include="Entidades\Pacientes\Paciente.cs" />
+    <Compile Include="Entidades\Personas\Persona.cs" />
+    <Compile Include="Entidades\Personas\Profesional.cs" />
     <Compile Include="Exceptions\Exceptions.cs" />
     <Compile Include="Validaciones\Validaciones.cs" />
     <Compile Include="Entidades\Visitas\Visita.cs" />

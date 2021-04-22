@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Veterinaria.Libreria.Exceptions;
 
 namespace Veterinaria.Libreria.Entidades
 {
@@ -13,6 +14,7 @@ namespace Veterinaria.Libreria.Entidades
         string _telefono;
         string _encargado;
         List<Cliente> _clientes;
+        List<Profesional> _profesionales;
 
         public SucVeterinaria(string nombre, string domicilio, string telefono, string encargado)
         {
@@ -21,13 +23,13 @@ namespace Veterinaria.Libreria.Entidades
             this._telefono = telefono;
             this._encargado = encargado;
             this._clientes = new List<Cliente>();
+            this._profesionales = new List<Profesional>();
         }
 
         public void AgregarCliente(string idCliente, string nombre, string domicilio, string numeroTel, string email)
         {
             Cliente cliente = new Cliente(idCliente, nombre, domicilio, numeroTel, email);
-            GuardarCliente(cliente);
-            
+            GuardarCliente(cliente);            
         }
 
         void GuardarCliente(Cliente cliente)
@@ -35,27 +37,28 @@ namespace Veterinaria.Libreria.Entidades
             this._clientes.Add(cliente);
         }
 
+        public void AgregarProfesional(string idProfesional, string nombre, string domicilio, string numeroTel, string email)
+        {
+            Profesional profesional = new Profesional (idProfesional, nombre, domicilio, numeroTel, email);
+            GuardarProfesional(profesional);
+        }
+
+        void GuardarProfesional(Profesional profesional)
+        {
+            this._profesionales.Add(profesional);
+        }
+
         public string BuscarHistoria (string idPaciente)
         {
             string valor = "";
-            if (_clientes.Count == 0)
+            PacienteYCliente pacienteYCliente = null;
+            pacienteYCliente = BuscarIdPacienteDevuelvePacienteyCliente(idPaciente);
+            if (pacienteYCliente == null)
             {
-                valor = "No hay pacientes ingresados\n";
+                throw new ElPacienteNoExisteException();
             }
-            else
-            {
-                PacienteYCliente pacienteYCliente = null;
-                pacienteYCliente = BuscarIdPacienteDevuelvePacienteyCliente(idPaciente);
-                if (pacienteYCliente == null)
-                {
-                    valor = "El paciente no existe";
-                }
-                else
-                {
-                    valor = pacienteYCliente.Paciente.ListarHistoria();
-                }
 
-            }
+            valor = pacienteYCliente.Paciente.ListarHistoria();
             return valor;
         }
 
@@ -74,18 +77,17 @@ namespace Veterinaria.Libreria.Entidades
         public string EliminarPaciente(string idPaciente)
         {
             string valor = "";
+
             PacienteYCliente pacienteYCliente = null;
             pacienteYCliente = BuscarIdPacienteDevuelvePacienteyCliente(idPaciente);
 
-            if (pacienteYCliente ==null)
+            if (pacienteYCliente == null)
             {
-                valor = "El paciente no existe\n";
+                throw new ElPacienteNoExisteException("No puede eliminarse, el paciente no existe\n");
             }
-            else
-            {
-                pacienteYCliente.Cliente.EliminarPaciente(pacienteYCliente.Paciente);
-                valor = "Paciente eliminado\n";
-            }
+
+            pacienteYCliente.Cliente.EliminarPaciente(pacienteYCliente.Paciente);
+            valor = "Paciente eliminado\n";
             return valor;
         }
         
@@ -101,6 +103,22 @@ namespace Veterinaria.Libreria.Entidades
                 foreach (Cliente cliente in this._clientes)
                 {
                     valor = valor + cliente.ListarCliente();
+                }
+            }
+            return valor;
+        }
+        public string ListarProfesionales()
+        {
+            string valor = "";
+            if (_profesionales.Count == 0)
+            {
+                valor = "No hay profesionales ingresados\n";
+            }
+            else
+            {
+                foreach (Profesional profesional in this._profesionales)
+                {
+                    valor = valor + profesional.ListarPersona();
                 }
             }
             return valor;
@@ -123,7 +141,7 @@ namespace Veterinaria.Libreria.Entidades
             Cliente valor = null;
             foreach (Cliente cliente in this._clientes)
             {
-                if (cliente.IdCliente == idCliente)
+                if (cliente.Id == idCliente)
                 {
                     valor = cliente;
                 }
@@ -136,7 +154,7 @@ namespace Veterinaria.Libreria.Entidades
             bool valor = false;
             foreach (Cliente cliente in this._clientes)
             {
-                if (cliente.IdCliente == idCliente)
+                if (cliente.Id == idCliente)
                 {
                     valor = true;
                 }
@@ -177,6 +195,19 @@ namespace Veterinaria.Libreria.Entidades
                 valor = new PacienteYCliente();
                 valor.Paciente = pacienteEncontrado;
                 valor.Cliente = clienteEncontrado;
+            }
+            return valor;
+        }
+
+        public bool BuscarIdProfesionalDevuelveBool(string idProfesional)
+        {
+            bool valor = false;
+            foreach (Profesional profesional in this._profesionales)
+            {
+                if (profesional.Id == idProfesional)
+                {
+                    valor = true;
+                }
             }
             return valor;
         }
