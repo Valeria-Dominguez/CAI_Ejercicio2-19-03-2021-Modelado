@@ -46,12 +46,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\Insumos\Insumo.cs" />
-    <Compile Include="Entidades\Pacientes\Clientes.cs" />
-    <Compile Include="Entidades\Pacientes\Turno.cs" />
+    <Compile Include="Entidades\AppVeterinaria\SucVeterinaria.cs" />
+    <Compile Include="Entidades\Modelos\PacienteYCliente.cs" />
+    <Compile Include="Entidades\Pacientes\Cliente.cs" />
     <Compile Include="Entidades\Pacientes\Paciente.cs" />
-    <Compile Include="Entidades\Pacientes\Visita.cs" />
-    <Compile Include="Entidades\Profesionales\Profesional.cs" />
+    <Compile Include="Exceptions\Exceptions.cs" />
+    <Compile Include="Validaciones\Validaciones.cs" />
+    <Compile Include="Entidades\Visitas\Visita.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

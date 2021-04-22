@@ -8,21 +8,52 @@ namespace Veterinaria.Libreria.Entidades
 {
     public class Paciente
     {
-        public int IdPaci { private set; get; }
-        public string NombrePaci { private set; get; }
-        public string EspeciePaci { private set; get; }
-        public string EdadPaci { private set; get; }
-        public string NombreDueño { private set; get; }
-        const int cantMaxVisitas = 200;
-        public Visita[] Visitas { private set; get; }
-        const int cantMaxAntecedentes = 50;
-        public string[] AntecedentesPaci { private set; get; } = new string[cantMaxAntecedentes];
+        string _idPaciente;
+        string _nombre;
+        string _fechaNacimiento;
+        int _peso;
+        List<Visita> _visitas;
 
-       
+        public string IdPaciente { get => _idPaciente; }
+        public string Nombre { get => _nombre; }
 
-        
+        internal Paciente(string idPaciente, string nombre, string fechaNacimiento, int peso)
+        {
+            this._idPaciente = idPaciente;
+            this._nombre = nombre;
+            this._fechaNacimiento = fechaNacimiento;
+            this._peso = peso;
+            this._visitas = new List<Visita>();
+        }
 
+        public string ListarHistoria()
+        {
+            string descripcion = "ID: " + _idPaciente
+                + "\nNombre: " + _nombre
+                + "\nFecha de nacimiento: " + _fechaNacimiento
+                + "\n";
 
+            string valor = "";
+            if (this._visitas.Count==0)
+            {
+                valor = "No hay visitas ingresadas\n";
+            }
+            else
+            {
+                valor = "Historial de visistas: \n";
+                foreach (Visita visita in this._visitas)
+                {
+                    valor = valor + visita.ListarVisita() + "\n\n";
+                }
+            }
+            valor = descripcion + valor;
+            return valor;
+        }
+
+        public void GuardarVisita(Visita visita)
+        {
+            this._visitas.Add(visita);
+        }
 
     }
 }
